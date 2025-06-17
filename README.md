@@ -24,4 +24,11 @@ This project allows users to ask natural language questions about any image usin
 - Run the app:
   ```bash
   python vqa_api_app.py
-  Follow the prompts to enter the image filename and your question
+Follow the prompts to enter the image filename and your question
+
+## Screenshot
+
+![VQA Screenshot](screenshot1.png)
+
+![VQA Screenshot](screenshot2.png)
+
