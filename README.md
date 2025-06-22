@@ -1,34 +1,48 @@
-# Course_Project
-
 # Visual Question Answering (VQA) using OpenRouter API
 
-This project allows users to ask natural language questions about any image using OpenRouter's GPT-4o API.
+This project is a simple web application that allows users to upload an image and ask natural language questions about it. The system uses OpenRouter's GPT-4o Vision model to generate intelligent answers based on the visual content.
+
+---
 
 ## Features
 
-- Upload an image and ask a question about it
-- Get intelligent answers from GPT-4o (Vision model)
-- Image preview with question + answer
+- Upload any image through the web interface
+- Ask natural language questions about the image
+- Get accurate visual answers powered by GPT-4o (Vision)
+- Display the image along with the question and model's answer
+
+
+## Tech Stack
+
+- Frontend: HTML (Jinja templating via Flask)
+- Backend: Python (Flask framework)
+- Model API: [OpenRouter GPT-4o Vision](https://openrouter.ai/)
+- Others: `requests`, `Pillow`, `matplotlib`, `os`, `base64`
+
+---
 
 ## Requirements
 
 - Python 3.10+
-- Install dependencies:
-  ```bash
-  pip install requests matplotlib pillow
+- Install required libraries:
 
-## How to Use
+```bash
+pip install flask requests matplotlib pillow
 
-- Put your image (e.g., example.jpg) in the project folder
-- Replace "THE-API-KEY" in vqa_api.py with your OpenRouter API key
-- Run the app:
-  ```bash
-  python vqa_api_app.py
-Follow the prompts to enter the image filename and your question
+🚀 How to Run
 
-## Screenshot
+- Clone or download this repository
+- Add your image(s) to the static/uploads/ folder, or upload them via the web UI.
+- Set your API key:
+- Open vqa_api.py
+- Replace "THE-API-KEY" with your actual OpenRouter API key.
+- Run the Flask app:
 
-![VQA Screenshot](screenshot1.png)
+```bash
+cd "Visual Question Answering system"
+python app.py
+Visit the app in your browser:
+Open browser at http://localhost
 
-![VQA Screenshot](screenshot2.png)
-
+Screenshot
+![VQA Screenshot](static/uploads/vqa_screenshot.PNG)
