@@ -11,7 +11,7 @@ def get_vqa_answer(image_path, question):
         base64_image = base64.b64encode(image_file.read()).decode("utf-8")
 
     headers = {
-        "Authorization": "Bearer THE-API-KEY",  # Replace safely via environment in Flask
+        "Authorization": "Bearer THE-API-KEY",  
         "Content-Type": "application/json"
     }
 
