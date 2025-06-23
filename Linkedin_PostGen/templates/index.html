@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LinkedIn Post Generator</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>🤖 LinkedIn Post Generator</h1>
+    <form method="post" enctype="multipart/form-data">
+      <label>📄 Prompt:</label>
+      <textarea name="prompt" rows="4">Generate a LinkedIn post for selected image.</textarea>
+
+      <label>📷 Upload Image:</label>
+      <input type="file" name="image" accept="image/*">
+
+      {% if image_url %}
+      <div class="image-preview">
+        <img src="{{ image_url }}" alt="Preview">
+      </div>
+      {% endif %}
+
+      <button type="submit">⚡ Generate Post</button>
+    </form>
+
+    {% if generated_post %}
+    <h2>🧠 Generated Post:</h2>
+    <div class="output-box">{{ generated_post }}</div>
+    {% endif %}
+  </div>
+</body>
+</html>
