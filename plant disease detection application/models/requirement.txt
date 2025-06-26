@@ -1,0 +1,1 @@
+Train model and save it with the name plant_disease_detection_model.keras
