@@ -1,0 +1,192 @@
+[
+  {
+    "name": "Apple___Apple_scab",
+    "cause": "Caused by the fungus Venturia inaequalis, thriving in cool and moist climates. Appears as dark lesions on leaves, reducing photosynthesis.",
+    "cure": "Remove fallen leaves, prune to increase airflow, and apply preventive fungicides early in the growing season."
+  },
+  {
+    "name": "Apple___Black_rot",
+    "cause": "Caused by Botryosphaeria obtusa, typically infects wounded or weak leaves and fruits during warm, humid conditions.",
+    "cure": "Remove mummified fruit and infected twigs. Use fungicide sprays in early spring and maintain plant vigor."
+  },
+  {
+    "name": "Apple___Cedar_apple_rust",
+    "cause": "Fungal disease (Gymnosporangium juniperi-virginianae) needing both junipers and apples to complete its life cycle. Shows orange spots on leaves.",
+    "cure": "Eliminate nearby juniper trees, apply rust-targeting fungicides during bud break, and choose resistant varieties."
+  },
+  {
+    "name": "Apple___healthy",
+    "cause": "No disease present. Leaves are green, well-formed, and show no lesions or spots.",
+    "cure": "Continue regular pruning, proper irrigation, and fertilization to maintain optimal leaf health."
+  },
+  {
+    "name": "Blueberry___healthy",
+    "cause": "Plant is free from disease; foliage appears lush, green, and uniformly shaped.",
+    "cure": "Ensure good drainage, mulch properly, and monitor soil pH to sustain healthy leaf development."
+  },
+  {
+    "name": "Cherry___Powdery_mildew",
+    "cause": "Caused by Podosphaera clandestina, leaves appear with white powdery patches, often in warm, dry climates.",
+    "cure": "Prune dense canopies, avoid overhead watering, and apply sulfur-based fungicides during early stages."
+  },
+  {
+    "name": "Cherry___healthy",
+    "cause": "No infections observed. Leaves are vibrant and undamaged.",
+    "cure": "Keep trees spaced properly, maintain soil moisture, and inspect leaves regularly for early disease signs."
+  },
+  {
+    "name": "Corn___Cercospora_leaf_spot Gray_leaf_spot",
+    "cause": "Caused by Cercospora zeae-maydis. Brown-gray lesions appear on lower leaves and move upward.",
+    "cure": "Use resistant hybrids, rotate crops, and apply fungicides at VT (tasseling) stage if symptoms are severe."
+  },
+  {
+    "name": "Corn___Common_rust",
+    "cause": "Fungus Puccinia sorghi causes rust-colored pustules on leaves, reducing energy production.",
+    "cure": "Plant resistant corn varieties and apply foliar fungicides at the first sign of infection."
+  },
+  {
+    "name": "Corn___Northern_Leaf_Blight",
+    "cause": "Caused by Exserohilum turcicum, showing as cigar-shaped lesions on older leaves during humid weather.",
+    "cure": "Use hybrid seeds with resistance, till crop residue, and apply fungicide during silking stage if needed."
+  },
+  {
+    "name": "Corn___healthy",
+    "cause": "Healthy corn leaves are free from spots or lesions and have a glossy green appearance.",
+    "cure": "Ensure balanced fertilization, weed control, and adequate watering for sustained health."
+  },
+  {
+    "name": "Grape___Black_rot",
+    "cause": "Caused by Guignardia bidwellii. Lesions form on leaves followed by black shriveled fruit.",
+    "cure": "Prune infected areas, apply fungicides during early shoot growth, and remove fallen debris."
+  },
+  {
+    "name": "Grape___Esca_(Black_Measles)",
+    "cause": "Complex disease involving several fungi. Leaves show tiger-striping and can die prematurely.",
+    "cure": "Remove infected trunks or canes, prevent trunk injuries, and apply protective fungicide pastes."
+  },
+  {
+    "name": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+    "cause": "Caused by Pseudocercospora vitis. Brown angular lesions form along the leaf margins.",
+    "cure": "Promote airflow by training vines, apply systemic fungicides, and maintain vineyard hygiene."
+  },
+  {
+    "name": "Grape___healthy",
+    "cause": "No leaf damage detected. Growth is strong and green.",
+    "cure": "Keep proper spacing, maintain soil fertility, and monitor regularly for mildew or rot."
+  },
+  {
+    "name": "Orange___Haunglongbing_(Citrus_greening)",
+    "cause": "Caused by Candidatus Liberibacter spp., transmitted by psyllid insects. Leaves appear blotchy and yellow.",
+    "cure": "Control psyllids with insecticides, remove infected trees promptly, and use certified disease-free saplings."
+  },
+  {
+    "name": "Peach___Bacterial_spot",
+    "cause": "Caused by Xanthomonas campestris pv. pruni. Dark, water-soaked spots appear on leaves and fruit.",
+    "cure": "Use copper sprays during bloom, remove infected shoots, and plant disease-resistant varieties."
+  },
+  {
+    "name": "Peach___healthy",
+    "cause": "Healthy foliage is free of yellowing or black spots and is firm in texture.",
+    "cure": "Keep trees well-pruned, avoid overhead irrigation, and use balanced nutrients to ensure vitality."
+  },
+  {
+    "name": "Pepper,_bell___Bacterial_spot",
+    "cause": "Bacterium Xanthomonas campestris causes greasy dark lesions on leaves and fruit.",
+    "cure": "Avoid wetting foliage, use copper-based bactericides, and rotate crops yearly."
+  },
+  {
+    "name": "Pepper,_bell___healthy",
+    "cause": "Healthy bell pepper leaves are broad, green, and free of spots or curling.",
+    "cure": "Provide full sunlight, fertilize moderately, and monitor humidity to sustain plant health."
+  },
+  {
+    "name": "Potato___Early_blight",
+    "cause": "Caused by Alternaria solani. Concentric brown rings appear on older leaves.",
+    "cure": "Remove infected leaves, rotate with non-host crops, and spray protectant fungicides weekly in season."
+  },
+  {
+    "name": "Potato___Late_blight",
+    "cause": "Phytophthora infestans causes rapid leaf browning, wilting, and collapse in wet conditions.",
+    "cure": "Use certified disease-free seed, apply fungicides proactively, and destroy infected plant residues."
+  },
+  {
+    "name": "Potato___healthy",
+    "cause": "No lesions or yellowing. Leaves are uniform and upright.",
+    "cure": "Maintain well-drained soil, manage irrigation schedules, and fertilize with nitrogen carefully."
+  },
+  {
+    "name": "Raspberry___healthy",
+    "cause": "No fungal or viral symptoms present. Foliage is fresh and green.",
+    "cure": "Mulch properly, prune annually, and inspect leaves to detect early infections."
+  },
+  {
+    "name": "Soybean___healthy",
+    "cause": "Healthy soybean leaves are bright green and free of discoloration or edge burn.",
+    "cure": "Inoculate seeds with rhizobia, provide potassium-rich soil, and scout for leaf pests regularly."
+  },
+  {
+    "name": "Squash___Powdery_mildew",
+    "cause": "Erysiphe cichoracearum causes powdery white growth on leaf surfaces.",
+    "cure": "Use sulfur sprays early, thin plant spacing, and irrigate at the root level to reduce humidity."
+  },
+  {
+    "name": "Strawberry___Leaf_scorch",
+    "cause": "Caused by Diplocarpon earlianum. Small purple spots coalesce into scorched margins.",
+    "cure": "Remove infected leaves, avoid wet foliage, and apply fungicides during flowering stage."
+  },
+  {
+    "name": "Strawberry___healthy",
+    "cause": "Leaf tissue is bright green with no brown edges or spots.",
+    "cure": "Avoid overhead watering, mulch with straw, and provide full sunlight to reduce fungal risk."
+  },
+  {
+    "name": "Tomato___Bacterial_spot",
+    "cause": "Xanthomonas spp. cause water-soaked lesions that enlarge and cause yellowing.",
+    "cure": "Use copper-based bactericides, rotate crops, and keep foliage dry during irrigation."
+  },
+  {
+    "name": "Tomato___Early_blight",
+    "cause": "Alternaria solani causes dark spots with concentric rings and yellowing around lesions.",
+    "cure": "Remove lower infected leaves, apply chlorothalonil fungicide, and avoid wetting leaves."
+  },
+  {
+    "name": "Tomato___Late_blight",
+    "cause": "Phytophthora infestans causes large water-soaked areas on leaves and stems.",
+    "cure": "Destroy infected plants, improve drainage, and apply systemic fungicides like mefenoxam."
+  },
+  {
+    "name": "Tomato___Leaf_Mold",
+    "cause": "Passalora fulva causes yellow patches that turn brown. Common in high humidity.",
+    "cure": "Improve air circulation, water early in the day, and apply fungicides with copper or mancozeb."
+  },
+  {
+    "name": "Tomato___Septoria_leaf_spot",
+    "cause": "Septoria lycopersici creates tiny brown spots with light centers and dark margins.",
+    "cure": "Remove infected foliage and apply protective fungicides starting at early fruiting stage."
+  },
+  {
+    "name": "Tomato___Spider_mites Two-spotted_spider_mite",
+    "cause": "Tetranychus urticae mites feed on leaves, causing stippling, yellowing, and webbing.",
+    "cure": "Spray neem oil or insecticidal soap, and increase humidity to reduce mite activity."
+  },
+  {
+    "name": "Tomato___Target_Spot",
+    "cause": "Corynespora cassiicola causes circular dark spots with yellow halos.",
+    "cure": "Use resistant cultivars, reduce humidity, and apply chlorothalonil-based fungicides."
+  },
+  {
+    "name": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+    "cause": "Transmitted by whiteflies, causing leaf curling, yellowing, and stunted growth.",
+    "cure": "Use yellow sticky traps, control whiteflies with soap sprays, and remove infected plants early."
+  },
+  {
+    "name": "Tomato___Tomato_mosaic_virus",
+    "cause": "Spread by contaminated tools or contact. Leaves show mottling and distortion.",
+    "cure": "Disinfect tools regularly, destroy infected plants, and avoid smoking near plants."
+  },
+  {
+    "name": "Tomato___healthy",
+    "cause": "Foliage is firm, green, and photosynthetically efficient without curling or spots.",
+    "cure": "Maintain balanced fertilization, adequate spacing, and proper watering to retain leaf vitality."
+  }
+]

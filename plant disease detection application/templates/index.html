@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Plant Disease Detection</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: white;
+    }
+    .form-box {
+      max-width: 500px;
+      margin: 30px auto;
+      padding: 30px;
+      background-color: #f8f9fa;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    }
+    .result-container {
+      margin-top: 30px;
+    }
+    .result-image {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .result-text {
+      margin-top: 15px;
+    }
+
+    #spinner {
+      display: none;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <span class="navbar-brand mb-0 h1">Plant Disease Detection</span>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="text-center mt-5">
+    <h1 class="text-success">Plant Disease Detection</h1>
+    <p class="text-muted">Upload a leaf image to detect the disease</p>
+  </div>
+
+  <div class="form-box">
+    <form action="/upload/" method="POST" enctype="multipart/form-data">
+      <div class="mb-3">
+        <label for="formFile" class="form-label">Choose Leaf Image</label>
+        <input class="form-control" type="file" id="formFile" name="img" accept="image/*" required>
+      </div>
+      <div class="text-center">
+        <button type="submit" class="btn btn-success">Upload & Predict</button>
+      </div>
+    </form>
+
+    <!-- 🔄 Spinner -->
+    <div class="text-center" id="spinner">
+      <div class="spinner-border text-success mt-3" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <p class="text-muted mt-2">Analyzing leaf image...</p>
+    </div>
+
+    <!-- 🔴 Error Message -->
+    {% if error %}
+    <div class="alert alert-danger text-center mt-3">
+      {{ error }}
+    </div>
+    {% endif %}
+
+    {% if result %}
+    <div class="result-container mt-4">
+      <div class="text-center">
+        <img src="{{ imagepath }}" alt="Uploaded Image" class="result-image mb-3">
+        <div class="result-text">
+          <h3 class="text-success">{{ prediction['name'] }}</h3>
+          <p><strong>Cause:</strong> {{ prediction['cause'] }}</p>
+          <p><strong>Cure:</strong> {{ prediction['cure'] }}</p>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+<!-- External JS File -->
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+</html>
