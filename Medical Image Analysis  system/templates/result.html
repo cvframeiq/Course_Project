@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>📷 VQA Result</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f9f9f2;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .result-box {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 20px;
+            display: inline-block;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+            max-width: 600px;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .question,
+        .answer {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .label {
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #eeeeee;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            border-radius: 10px;
+            transition: background 0.3s ease;
+        }
+
+        .back-btn:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h1>📸 VQA Result</h1>
+    <div class="result-box">
+        <div class="label">🖼 Uploaded Image</div>
+        <img src="{{ image_url }}" alt="Uploaded Image">
+        <p class="question"><strong>❓ Q:</strong> {{ question }}</p>
+        <p class="answer"><strong>💬 A:</strong> {{ answer }}</p>
+        <a href="/" class="back-btn">🔙 Ask Another Question</a>
+    </div>
+</body>
+</html>

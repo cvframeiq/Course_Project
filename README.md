@@ -1,12 +1,12 @@
-# Visual Question Answering (VQA) using OpenRouter API
+# Medical Image Analysis System using OpenRouter API
 
-This project is a simple web application that allows users to upload an image and ask natural language questions about it. The system uses OpenRouter's GPT-4o Vision model to generate intelligent answers based on the visual content.
+This project is a simple web application that allows users to upload an medical image and ask natural language questions about it. The system uses OpenRouter's GPT-4o Vision model to generate intelligent answers based on the visual content.
 
 ---
 
 ## Features
 
-- Upload any image through the web interface  
+- Upload any medical image through the web interface  
 - Ask natural language questions about the image  
 - Get accurate visual answers powered by GPT-4o (Vision)  
 - Display the image along with the question and model's answer  
@@ -43,7 +43,7 @@ This project is a simple web application that allows users to upload an image an
 - Run the Flask app:
 
   ```bash
-  cd "Visual Question Answering system"
+  cd "Medical Image Analysis system"
   python app.py
   ```
 
@@ -54,4 +54,5 @@ This project is a simple web application that allows users to upload an image an
 
 ## Screenshot
 
-![VQA Screenshot](static/uploads/vqa_screenshot.png)
+![VQA Screenshot](static/uploads/Output_blood_report.png)
+![VQA Screenshot](static/uploads/medicine_Output.png)
